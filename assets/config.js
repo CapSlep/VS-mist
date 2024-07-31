@@ -2,8 +2,8 @@ const orderHref = window.__order_href;
 const orderOriginParam = window.__origin_param;
 
 (function (exp) {
-  const countryCode = "fr";
-  const lang = "fr-FR";
+  const countryCode = "be";
+  const lang = "fr-BE";
   const locale = lang;
 
   const sizes = {
@@ -34,7 +34,7 @@ const orderOriginParam = window.__origin_param;
   };
 
   const mainProduct = {
-    header: "Nouveau | Économisez 380 €",
+    header: "Nouveau | Économisez 408,05 €",
     name: "Brume Aromatique",
     oldPrice: "410 €",
     newPrice: "1,95 €",
@@ -52,13 +52,13 @@ const orderOriginParam = window.__origin_param;
   const notifications = [
     {
       user: "Sophie S*****",
-      location: "Paris, France",
+      location: "Bruxelles, Belgique",
       action: "Je viens d'acheter le kit Mist pour 1,95 €.",
       timeago: "il y a 15 secondes",
     },
     {
       user: "Jacqueline B******",
-      location: "Lyon, France",
+      location: "Anvers, Belgique",
       action: "Je viens d'acheter le kit Mist pour 1,95 €.",
       timeago: "il y a 25 secondes",
     },
@@ -298,7 +298,7 @@ const orderOriginParam = window.__origin_param;
       ],
     },
     {
-      id: "26546832",
+      id: "26468780",
       name: "Pear Glacé",
       miniImg: "./assets/vs3_s.jpg",
       desc: `
@@ -402,8 +402,9 @@ const orderOriginParam = window.__origin_param;
   ];
 
   const footer = {
-    cr: "2024 Victoria's Secret. Tous droits réservés.",
+    cr: "2023 Victoria's Secret. Tous droits réservés.",
   };
+
 
 
   const pathImgBox = {
@@ -433,7 +434,7 @@ const orderOriginParam = window.__origin_param;
   };
 })(window);
 
-const siteKey = "victory-fr";
+const siteKey = "victory-be";
 
 function setCookie(name, value, days = 2) {
   const expires = new Date(Date.now() + days * 864e5).toUTCString();
